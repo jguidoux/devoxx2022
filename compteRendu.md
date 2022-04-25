@@ -2,7 +2,7 @@
 
 ## Jour 1
 
-### Théories des catégoriesx. Vous la connaissez déja
+### Théories des catégories. Vous la connaissez déja
 
 Appliquer la théories mathématique des **catégories** au développement logiciel.
 Elle s'appuie sur la théories des ensembles.
@@ -151,7 +151,8 @@ Constat : 
     * Massivement //
     * // Avec sélactions
 * les tests unitaires créent un contrat d'interfaces. Comment gérer un changement d'interfaces ?
-La problémi
+
+![sketchnote pyramide](skechnotes/affranchir_pyramide_test.jpeg)
 
 ### The unknown of Junit 5
 
@@ -163,6 +164,11 @@ Explications rapide des nouvelles fonctionnalités de Juint5
 ### Rex TDD et testContainers
 
 Comment utiliser testContainer dans un contexte Java
+
+### Architecture hexagonal nodeJS
+
+![sketchnote arhi hexagonal ](skechnotes/archi_hexa_nodejs.jpeg)
+
 
 ## Jour 3
 
@@ -178,6 +184,10 @@ Découvertes des bubble contextes. Comment ils communiques ?
 * Par flux d'état
 * Par Évènements
 * Par notifications + Commande d'api
+
+### Mob programming
+
+![sketchnote mob programming](skechnotes/mobProgramming.jpeg)
 
 ### En quềte du clean code avec Sonar : 20 000 Lieues sous un océan de code
 
