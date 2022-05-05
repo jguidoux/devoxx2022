@@ -4,8 +4,8 @@
 
 ### Théories des catégories. Vous la connaissez déja
 
-Appliquer la théorie mathématiques des **catégories** au développement logiciel.
-Elle s'appuie sur la théorie des ensembles.
+Appliquer la théories mathématique des **catégories** au développement logiciel.
+Elle s'appuie sur la théories des ensembles.
 Objectif:
 
 Application ->  Ensemble de services -> ensemble de fonctions.
@@ -16,10 +16,10 @@ Ces fonctions auraient un certain nombre de propriétés
 
 Ceci permet d’écrire une code plus souple.
 
-Une catégorie :
+Une catégories :
 * deux ensemble **E** et **F**
-* des fonctions transformant des objets de **E** vers **F**
-* Une fonction identité `id(x)=x`
+* des fonction transformant des objets de **E** vers **F**
+* Une fonction identitée `id(x)=x`
 
 Un **Monoïde** est une catégorie de **E** vers lui-même.
 Un **monoîde** Contient une **élément neutre**.
@@ -31,9 +31,9 @@ Quelques exemples :
 * `{String, *, ""}`
 * `{List, add(), []}`
 
-Pour généraliser on a également parlé de **Functor** et **Monade**. qui sont un peu des applications des théories de catégories à elle-même.
-Elles permèttent d'écrire du code plus générique, en manipulant des types générique et des ensembles.
-Une **Monade** est un **monoïde** à ce niveau.
+Pour généraliser on a également parlé de **Functor** et **Monade**. qui sont une peut des application des théories de catégories à elle-même.
+Elles permèttent d'écrire du code plus générique, en manupulant des types générique et des ensembles.
+Une **Monade** est un **monoïde** à ce miveau.
 Quelques exemples de **monades** :
 * `{Stream<T>, map}`
 * `{Optional<T>, map}`
@@ -42,8 +42,8 @@ Quelques exemples de **monades** :
 
 Test && commit || revert
 
-Méthodologie d'entrainement pour apprendre a tester/refactorer step by step
-si un teste plante => revert du code de production
+Méthodologiet d'entrainement pour apprendre a tester/refactorer step by step
+si ton teste plante => revert du code de production
 
 ### Intégration a l'ère du Cloud avec Camel Quarkus
 
@@ -74,7 +74,7 @@ Présentation de la loi De Conway.
 
 Vos applications sont drivés par la communication intra-entreprise.
 
-Presentation de 4 iyfférents type d'équipes et de leurs communications
+Presentation de 4 dyfférents type d'équipes et de leurs communications
 Une équipe :
 * responsabilité claire
 * possède un bout de logiciel
@@ -93,7 +93,7 @@ Une équipe :
 
 ### Model Driven Design
 
-Présentation intéressante pour ceux qui connaissent déjà le DDD. Trop rapide pour les autres
+Présentation intéressante pour ceux qui connaissait déjà le DDD. Trop rapide pour les autres
 
 Présentation de Deep Model et du Supple Design
 
@@ -112,9 +112,9 @@ Ateliers :
 
 ### Dois-je migrer en Reactive et comment ?
 
-La plus grande partie de cette conférence concernait sur une présentation de Spring reactor/webflux.
+La plus grande parties de cette conférence concernait sur une présentation de Spring reactor/webflux.
 
-Il est conseillé d'utiliser la programmation réactive pour la scalibité et non pour les performances
+Il est conseillé d'utilisé la programmation réactive pour la scalibité et non pour les performances
 
 ### Micronaut AOT : OPtimiter vos applications pour la JIT et GraalVM
 
@@ -122,9 +122,9 @@ Micronaut AOT est un concurrent à GraalVM.
 Comment Micronaut permet d’optimiser son execution par un grand nombre de traitement à la compilation
 * Calcul de la réflexivité
 * Transformation de yaml en Java
-* Suppression des dépendances inutiles
+* Suppression de dépendances inutiles
 
-Micronaut AOT permet d'optimiser l'éxécution sur la machine cible. C'est pour la prod et non pour le dévolopeur.
+Micronaut AOT permet quand à lui d'optimiser l'éxécution sur la machine cible. C'est pour la prod et non pour le dévolopeur.
 
 Il va récupérer les infos de la machine cible. Infos qu'il peut calculer ou qu'on peut lui donner. A partir de là , il va virer tout ce qui est inutile.
 
@@ -176,8 +176,8 @@ Comment utiliser testContainer dans un contexte Java
 
 Trouver les différents domaines
 Savoir en base quelles tables/champs appartiennent à quel domaine
-Ajouter une fonctionnalité a coté du monolythe.
-Découvertes des bubble contextes. Comment ils communiquent ?
+Ajouter une foncitonnalité a coté du monolythe.
+Découvertes des bubble contextes. Comment ils communiques ?
 * par BDD (A Éviter)
 * Par query d'API
 * Par Commande d'API
@@ -191,17 +191,26 @@ Découvertes des bubble contextes. Comment ils communiquent ?
 
 ### En quềte du clean code avec Sonar : 20 000 Lieues sous un océan de code
 
-Je n'ai pas appris grand chose. Sonar tente de voir plus large et s'oriente vers le clean code.
+Je n'ai pas appris grand chose. Sonar tente de voir plus large et s'orient vers le clean code.
 Considère de regarder le nouveau code. 
-Corriger au plus prèt de la source et donc utiliser sonarlint puis au commit
+Corriger au plus prèt de la sources et donc utiliser sonarlint puis au commit
 
-### 400 endoits d'API et 2000 types : génèse de utilisation du nouveau client Java pour ElasticSearch
+### 400 endoits d'API et 2000 types : génèse ut utilisation du nouveau client Java pour ElasticSearch
 
-Reflection sur une API très complexe pour simplifier son utilisation.
-Écriture d'un nouveau client plus intuitif dans lequel on peut utiliser la puissance d'autocompletion des IDE.
+Reflection sur une API très complexe pour simplifier sont utilisation.
+Écriture d'une nouveau client plus intuitif dans lequel on peut utiliser la puissance d'autocompletion des IDE.
 Règles :
 * On ne veut pas que l'utilisateur ait a Deviner un nom de classe
 * On ne veut pas que l'utilisateur ait des imports (hors ceux de base) à faire
 * On veut avoir une correspondance forte entre le code java et json.
 
 Pour celà ils ont eut l'idée d’utilser les lambdas et le pattern Builder.
+
+### Architecture microservices et cohérence des données : mais on fait comment pour de vrai ?
+
+Maintenir la cohérence des données dans un contexte distribue est un challenge en soit. Finis les transcation ACID. il va falloir composer.
+Il va falloir réfléchire en terme de transaciton distribuées.
+
+Cette présentation décrit deux méthodes :
+* SAGA
+* LRA (Long Running Action)
