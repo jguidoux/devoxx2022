@@ -1,5 +1,30 @@
 # Devoxx 20222
 
+- [Devoxx 20222](#devoxx-20222)
+  - [Jour 1](#jour-1)
+    - [Théories des catégories. Vous la connaissez déja](#théories-des-catégories-vous-la-connaissez-déja)
+    - [Tester vos méthodes de refactoring sur la machine d'entrainement TCR](#tester-vos-méthodes-de-refactoring-sur-la-machine-dentrainement-tcr)
+    - [Intégration a l'ère du Cloud avec Camel Quarkus](#intégration-a-lère-du-cloud-avec-camel-quarkus)
+    - [Redonnez l'agilité à vos dévoloppeurs](#redonnez-lagilité-à-vos-dévoloppeurs)
+    - [Reprenez le condrol de votre Bash en devenant un Ninja de la CLI](#reprenez-le-condrol-de-votre-bash-en-devenant-un-ninja-de-la-cli)
+  - [Jour 2](#jour-2)
+    - [Slow tech : Il est urgent de hacker le système](#slow-tech-il-est-urgent-de-hacker-le-système)
+    - [Et si les micro-services n'avaient rien à voir avec la technique](#et-si-les-micro-services-navaient-rien-à-voir-avec-la-technique)
+    - [Model Driven Design](#model-driven-design)
+    - [Dois-je migrer en Reactive et comment ?](#dois-je-migrer-en-reactive-et-comment-)
+    - [Micronaut AOT : OPtimiter vos applications pour la JIT et GraalVM](#micronaut-aot-optimiter-vos-applications-pour-la-jit-et-graalvm)
+    - [Continious Delivery on premise : Gerrit, Jenkins et Sonarqube entre dans un bar](#continious-delivery-on-premise-gerrit-jenkins-et-sonarqube-entre-dans-un-bar)
+    - [S'affranchir de la pyramide de tests](#saffranchir-de-la-pyramide-de-tests)
+    - [The unknown of Junit 5](#the-unknown-of-junit-5)
+    - [Rex TDD et testContainers](#rex-tdd-et-testcontainers)
+    - [Architecture hexagonal nodeJS](#architecture-hexagonal-nodejs)
+  - [Jour 3](#jour-3)
+    - [Découper mon monolithe](#découper-mon-monolithe)
+    - [Mob programming](#mob-programming)
+    - [En quềte du clean code avec Sonar : 20 000 Lieues sous un océan de code](#en-quềte-du-clean-code-avec-sonar--20-000-lieues-sous-un-océan-de-code)
+    - [400 endoits d'API et 2000 types : génèse ut utilisation du nouveau client Java pour ElasticSearch](#400-endoits-dapiet-2000-types-génèse-ut-utilisation-du-nouveau-client-java-pour-elasticsearch)
+    - [Architecture microservices et cohérence des données : mais on fait comment pour de vrai ?](#architecture-microservices-et-cohérence-des-données--mais-on-fait-comment-pour-de-vrai-)
+
 ## Jour 1
 
 ### Théories des catégories. Vous la connaissez déja
